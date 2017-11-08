@@ -11,6 +11,8 @@ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://
 **Required:**
 
 bionic: repopick [185640](https://review.lineageos.org/#/c/185640/) [190614](https://review.lineageos.org/#/c/190614/)  
+frameworks/av: repopick [187558](https://review.lineageos.org/#/c/187558/) [187559](https://review.lineageos.org/#/c/187559/) [187560](https://review.lineageos.org/#/c/187560/) [187561](https://review.lineageos.org/#/c/187561/) [188388](https://review.lineageos.org/#/c/188388/) (note: this one it's a workaround by now)
+hardware/qcom/audio-caf/msm8916: repopick [189436](https://review.lineageos.org/#/c/189436/)
 system/qcom: repopick [187637](https://review.lineageos.org/#/c/187637)
 
 **Optional:**
