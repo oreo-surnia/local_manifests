@@ -20,6 +20,8 @@ system/qcom: repopick [187637](https://review.lineageos.org/#/c/187637)
 
 **Optional:**
 
+build: repopick [186687](https://review.lineageos.org/#/c/186687/) (this needs an updated TWRP with #define TW_NO_LEGACY_PROPS 1 added.)
+
 system/core: repopick [187146](https://review.lineageos.org/#/c/187146)
 
 
