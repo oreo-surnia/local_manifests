@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote names | most of them are just with another name in case you go into different ROM manifests. -->
+  <remote name="gitstuff" fetch="https://github.com" />
+  <remote name="losgit" fetch="http://github.com/LineageOS" />
+  <!-- muppets remote just in case -->
+  <remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+  
+  <!-- surnia stuff -->
+  <project path="device/motorola/surnia" name="oreo-surnia/android_device_motorola_surnia" revision="lineage-15.0" remote="gitstuff" />
+  <project path="device/motorola/msm8916-common" name="oreo-surnia/device_motorola_msm8916-common" revision="lineage-15.0" remote="gitstuff"/>
+  <project path="kernel/motorola/msm8916" name="oreo-surnia/los_kernel_motorola_msm8916"  revision="lineage-15.0" remote="gitstuff"/>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" remote="gitstuff"/> 
+  
+  <!-- dependencies and stuff -->
+  <project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="lineage-15.0" remote="gitstuff" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.0" remote="losgit" />
+  <project path="external/sony/boringssl-compat" name="lineageos/android_external_sony_boringssl-compat" revision="lineage-15.0" remote="gitstuff" />
+</manifest>
