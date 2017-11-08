@@ -20,7 +20,7 @@ system/qcom: repopick [187637](https://review.lineageos.org/#/c/187637)
 
 **Optional:**
 
-build: repopick [186687](https://review.lineageos.org/#/c/186687/) (this needs an updated TWRP with #define TW_NO_LEGACY_PROPS 1 added.)
+build/make: repopick [186687](https://review.lineageos.org/#/c/186687/) (this needs an updated TWRP with #define TW_NO_LEGACY_PROPS 1 added.)
 
 system/core: repopick [187146](https://review.lineageos.org/#/c/187146)
 
@@ -30,3 +30,5 @@ There will be a test branch to mess up and if every new change works fine, will 
 
 ## Credits
 This is thanks to alberto97, the main dev of moto msm8916 for Lineage, he made almost everything, also thanks to droidfreak32 who was working hard to make camera and stuff work, and well, a small thanks to me, eldainosor who fixed the init for surnia. be sure to credit to people who made this possible idk
+
+also, don't be a [lazybone](https://gist.github.com/eldainosor/84bb9f911385b573712d9e932fa549d3) and have fun building oreo :)
