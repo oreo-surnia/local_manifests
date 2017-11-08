@@ -9,8 +9,8 @@
   
   <!-- surnia stuff -->
   <project path="device/motorola/surnia" name="oreo-surnia/android_device_motorola_surnia" revision="lineage-15.0" remote="gitstuff" />
-  <project path="device/motorola/msm8916-common" name="oreo-surnia/device_motorola_msm8916-common" revision="lineage-15.0" remote="gitstuff"/>
-  <project path="kernel/motorola/msm8916" name="oreo-surnia/los_kernel_motorola_msm8916"  revision="lineage-15.0" remote="gitstuff"/>
+  <project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="lineage-15.0" remote="gitstuff"/>
+  <project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916"  revision="lineage-15.0" remote="gitstuff"/>
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" remote="gitstuff"/> 
   
   <!-- dependencies and stuff -->
