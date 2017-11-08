@@ -8,7 +8,13 @@ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://
 ```
 
 ## How many changes do i have to do?
-Idk, this will be added later
+**Required:**
+bionic: repopick [185640](https://review.lineageos.org/#/c/185640/) [190614](https://review.lineageos.org/#/c/190614/)  
+system/qcom: repopick [187637](https://review.lineageos.org/#/c/187637)
+
+**Optional:**
+system/core: repopick [187146](https://review.lineageos.org/#/c/187146)
+
 
 ## The test branch
 There will be a test branch to mess up and if every new change works fine, will be merged on main branch
