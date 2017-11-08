@@ -14,7 +14,7 @@ bionic: repopick [185640](https://review.lineageos.org/#/c/185640/) [190614](htt
 
 frameworks/av: repopick [187558](https://review.lineageos.org/#/c/187558/) [187559](https://review.lineageos.org/#/c/187559/) [187560](https://review.lineageos.org/#/c/187560/) [187561](https://review.lineageos.org/#/c/187561/) [188388](https://review.lineageos.org/#/c/188388/) (note: this one it's a workaround by now).
 
-hardware/qcom/audio-caf/msm8916: repopick [189436](https://review.lineageos.org/#/c/189436/)
+hardware/qcom/audio-caf/msm8916: repopick [189434](https://review.lineageos.org/#/c/189434/) [189435](https://review.lineageos.org/#/c/189435/) [189436](https://review.lineageos.org/#/c/189436/) [189437](https://review.lineageos.org/#/c/189437/)
 
 system/qcom: repopick [187637](https://review.lineageos.org/#/c/187637)
 
