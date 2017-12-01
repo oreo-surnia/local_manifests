@@ -18,6 +18,8 @@ hardware/qcom/audio-caf/msm8916: repopick [189434](https://review.lineageos.org/
 
 system/qcom: repopick [187637](https://review.lineageos.org/#/c/187637)
 
+Also, nuke the vendor/qcom/opensource/dataservices repo pls
+
 **Optional:**
 
 build/make: repopick [186687](https://review.lineageos.org/#/c/186687/) (this needs an updated TWRP with #define TW_NO_LEGACY_PROPS 1 added.)
