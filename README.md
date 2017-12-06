@@ -4,7 +4,7 @@ There it is some changes to use a stable source to build LOS15 or LOS-Based ROMs
 ## How can i add this to my common repo sync?
 by just ctrl+c and ctrl+v this:
 ```
-curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/oreo-surnia/local_manifests/master/local_manifest.xml
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/OspreyDevsTeam/local_manifests/aosp8.0.0/local_manifest.xml
 ```
 
 ## How many changes do i have to do?
