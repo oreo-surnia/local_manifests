@@ -17,4 +17,16 @@
   <project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="lineage-15.0-alberto" remote="gitstuff" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.0" remote="losgit" />
   <project path="external/sony/boringssl-compat" name="lineageos/android_external_sony_boringssl-compat" revision="lineage-15.0" remote="gitstuff" />
+  
+  <!-- Unwanted stuff -->
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  
 </manifest>
