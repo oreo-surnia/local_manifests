@@ -8,13 +8,13 @@
 
   
   <!-- surnia stuff -->
-  <project path="device/motorola/surnia" name="oreo-surnia/android_device_motorola_surnia" revision="lineage-15.0" remote="gitstuff" />
-  <project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="lineage-15.0-alberto" remote="gitstuff"/>
-  <project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916"  revision="lineage-15.0-alberto" remote="gitstuff"/>
+  <project path="device/motorola/surnia" name="oreo-surnia/android_device_motorola_surnia" revision="oreo-mr1" remote="gitstuff" />
+  <project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="oreo-mr1" remote="gitstuff"/>
+  <project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916"  revision="oreo-mr1" remote="gitstuff"/>
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" remote="gitstuff"/> 
   
   <!-- dependencies and stuff -->
-  <project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="lineage-15.0-alberto" remote="gitstuff" />
+  <project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="oreo-mr1" remote="gitstuff" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.0" remote="losgit" />
   <project path="external/sony/boringssl-compat" name="lineageos/android_external_sony_boringssl-compat" revision="lineage-15.0" remote="gitstuff" />
   
